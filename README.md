@@ -12,20 +12,21 @@ npm install
 Modify `config.json`
 ```json
 {
-  "port" : "3000",
-  "channelAccessToken": "YOUR_CHANNEL_ACCESS_TOKEN",
-  "channelSecret": "YOUR_CHANNEL_SECRET"
+  "port" : "80",
+  "channelAccessToken": "fNo/YfJdyjbehXkDOQWfLn4GZHUO7Tc02opcIqXvn3bft60Yuqv4BHYtHVHEVROjfQw3ihYLT3Oz37TwFQ02R7NiyIC+bQkKb4EJXhB3nDqj9CtSMdqkgHsP0l8YLmAKSlSEUks2v4W6p2eS5HUoKwdB04t89/1O/w1cDnyilFU=",
+  "channelSecret": "e96118e36074c1bc96818b2e3062179c
+"
 }
 ```
 Run
 ```
 npm start
 ```
-then you can access [http://localhost:3000](http://localhost:3000)
+then you can access [http://localhost:80](http://localhost:80)
 
 Use [ngrok](https://ngrok.com/) to expose your local url
 ```
-path/to/ngrok http 3000
+path/to/ngrok http 80
 ```
 config webhook url in developer console then enjoy your bot!
 
